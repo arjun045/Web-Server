@@ -14,7 +14,7 @@ The project is divided into two parts:-
 <h1>For Server :-</h1>
 
 <b>Algorithm for TCP server</b><br>
-1)Find the IP address and port number of server,br>
+1)Find the IP address and port number of server,<br>
 2)Create a TCP server socket<br>
 3)Bind the server socket to server IP and Port number (this is the
 port to which clients will connect)<br>
