@@ -1,13 +1,13 @@
 The project aim was to design and developed a fully functional Client-Server Communication, the server fulfills the request and delivers the response to the client.
 The project is divided into two parts:-
 
-For Client :-
-//Algorithm for TCP client
-1) Find the IP address and port number of server
-2) Create a TCP socket
-3)Connect the socket to server (Server must be up and listening for new requests)
-4)Fork the process into two :- 
-	a) Child Process(in with response from server is recieved)
+For Client :-<br>
+<b>Algorithm for TCP client<b><br>
+1) Find the IP address and port number of server<br>
+2) Create a TCP socket<br>
+3)Connect the socket to server (Server must be up and listening for new requests)<br>
+4)Fork the process into two :- <br>
+	a) Child Process(in with response from server is recieved)<br>
 	b) Parent Process(sends request to the server)
 5)Close the connection
 
